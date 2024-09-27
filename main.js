@@ -1,7 +1,10 @@
-function callHello(title,call=""){
-    console.log('Hello ' + title+call);
-}
-callHello('World');
-callHello('JavaScript');
-callHello('Node.js');
-callHello('React.js','!');
+console.log(String(NaN))
+console.log(String(null))
+console.log(String(undefined))
+console.log(String(Infinity))
+console.log(String(-Infinity))
+console.log(String(true))
+console.log(String(false))
+console.log(String(void 0))
+console.log(String(1))
+
